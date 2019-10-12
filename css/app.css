@@ -19,25 +19,9 @@ body {
 .round-active {
     border: 3px solid white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.round-item {
+    cursor: pointer;
+}
 
 .ritekhed-main-content, .ritekhed-main-section, .ritekhed-wrapper {
     float: left;
@@ -46,7 +30,7 @@ body {
 }
 
 .ritekhed-match-fixture {
-    float: left;
+    /*float: left;*/
     width: 100%;
     margin: 20px 0px 66px;
 }
@@ -143,14 +127,7 @@ figure {
     border-bottom: none;
 }
 
-.ritekhed-match-fixture {
-    float: left;
-    width: 100%;
-    margin: 20px 0px 66px;
-}
-
 .ritekhed-classic-heading {
-    float: left;
     width: 100%;
     padding: 0px 0px 0px 0px;
     position: relative;
@@ -158,7 +135,7 @@ figure {
 
 .ritekhed-client-detail {
     margin-bottom: 24px;
-    float: left;
+    /*float: left;*/
     width: 100%;
     background-color: #f5f5f5;
 }
@@ -204,7 +181,7 @@ figure {
 }
 
 .ritekhed-team-ranking .ritekhed-client-detail tr > td:first-child {
-    padding: 15px 13px 15px 30px;
+    padding: 10px 13px 10px 10px;
 }
 
 form_main {
@@ -273,9 +250,9 @@ form_main {
     transition: all 0.5s ease 0s;
 }
 
-.ritekhed-team-ranking .ritekhed-client-detail tr > th:first-child {
-    padding: 15px 13px 15px 30px;
-}
+/*.ritekhed-team-ranking .ritekhed-client-detail tr > th:first-child {*/
+/*    padding: 15px 13px 15px 10px;*/
+/*}*/
 
 .ritekhed-client-detail tr > th {
     color: #000;
@@ -290,21 +267,23 @@ form_main {
     text-align: left;
 }
 
-.ritekhed-team-ranking .ritekhed-client-detail tr span {
-    margin-top: 5px;
-}
+/*.ritekhed-team-ranking .ritekhed-client-detail tr span {*/
+/*    margin-top: 5px;*/
+/*}*/
 
-.ritekhed-match-fixture .ritekhed-client-detail tr > td > span {
-    float: left;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 2;
-}
+/*.ritekhed-match-fixture .ritekhed-client-detail tr > td > span {*/
+/*    !*float: left;*!*/
+/*    font-weight: bold;*/
+/*    font-size: 16px;*/
+/*    line-height: 2;*/
+/*}*/
 
-.ritekhed-team-ranking .ritekhed-client-detail tr > td figure ~ .player-stats-text {
-    margin: 0px 0 0 75px;
+/*.ritekhed-team-ranking .ritekhed-client-detail tr > td figure ~ .player-stats-text {*/
+/*    margin: 0px 0 0 75px;*/
+/*}*/
+.ritekhed-match-fixture .player-stats-text {
+    min-width: 150px;
 }
-
 .ritekhed-match-fixture .player-stats-text h6 {
     font-size: 14px;
     margin: 0px 0px 6px;
@@ -318,36 +297,43 @@ form_main {
     margin-top: 5px;
 }
 
-.ritekhed-client-detail tr > td {
-    border: none;
-    border-top-color: currentcolor;
-    border-top-style: none;
-    border-top-width: medium;
-    border-bottom-color: currentcolor;
-    border-bottom-style: none;
-    border-bottom-width: medium;
-    border-bottom: none;
-    border-top: none;
-    padding: 14px 27px 10px 30px;
-    text-align: left;
-    font-size: 12px;
-    color: #666666;
+.ritekhed-match-fixture .table-team-name {
+    padding-left: 80px;
+}
+.ritekhed-match-fixture .table-team-user {
+    padding-left: 15px;
 }
 
-.ritekhed-match-fixture .ritekhed-client-detail tr > td {
-    padding: 15px 2px 15px 20px;
-    color: #292c31;
-    vertical-align: middle;
-}
+/*.ritekhed-client-detail tr > td {*/
+/*    border: none;*/
+/*    border-top-color: currentcolor;*/
+/*    border-top-style: none;*/
+/*    border-top-width: medium;*/
+/*    border-bottom-color: currentcolor;*/
+/*    border-bottom-style: none;*/
+/*    border-bottom-width: medium;*/
+/*    border-bottom: none;*/
+/*    border-top: none;*/
+/*    padding: 14px 27px 10px 30px;*/
+/*    text-align: left;*/
+/*    font-size: 12px;*/
+/*    color: #666666;*/
+/*}*/
 
-.ritekhed-team-ranking .ritekhed-client-detail tr > td {
-    padding: 15px 9px 15px 7px;
-}
+/*.ritekhed-match-fixture .ritekhed-client-detail tr > td {*/
+/*    padding: 15px 2px 15px 20px;*/
+/*    color: #292c31;*/
+/*    vertical-align: middle;*/
+/*}*/
 
-.ritekhed-match-fixture .ritekhed-client-detail tr > td:nth-child(2) {
-    padding-left: 0px;
-    padding-right: 8px;
-}
+/*.ritekhed-team-ranking .ritekhed-client-detail tr > td {*/
+/*    padding: 15px 9px 15px 7px;*/
+/*}*/
+
+/*.ritekhed-match-fixture .ritekhed-client-detail tr > td:nth-child(2) {*/
+/*    padding-left: 0px;*/
+/*    padding-right: 8px;*/
+/*}*/
 
 .ritekhed-match-fixture .ritekhed-client-detail tr > td > span {
     float: left;
@@ -356,11 +342,11 @@ form_main {
     line-height: 2;
 }
 
-.ritekhed-match-fixture .ritekhed-client-detail tr > td {
-    padding: 15px 2px 15px 20px;
-    color: #292c31;
-    vertical-align: middle;
-}
+/*.ritekhed-match-fixture .ritekhed-client-detail tr > td {*/
+/*    padding: 15px 2px 15px 15px;*/
+/*    color: #292c31;*/
+/*    vertical-align: middle;*/
+/*}*/
 
 .ritekhed-match-fixture .ritekhed-client-detail tr > td figure {
     width: 41px;
@@ -368,7 +354,7 @@ form_main {
 }
 
 .ritekhed-team-ranking .ritekhed-client-detail tr > td figure {
-    margin: 8px 0px 0px 28px;
+    margin: 8px 0px 0px 15px;
 }
 
 .ritekhed-client-detail tr > td figure img {
@@ -423,7 +409,36 @@ form_main {
     font-size: 36px;
 }
 
+.wins, .loss, .draws, .points {
+    font-weight: bold;
+}
+.header-title {
+    text-align: center;
+    font: 40px Roboto;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.header-aba {
+    max-width: 90px;
+    vertical-align: bottom;
+}
+.fixture-row {
 
+}
 
+.fixture-row {
+    display: grid;
+    grid-template-columns: 66px 120px 39px 50px 39px 120px 66px;
+}
 
+/*.ritekhed-match-fixture*/
+/*.fixture-row*/
+/*.fixture-row-team-info h6 {*/
+/*    font-weight: bold;*/
+/*    font-size: 12px;*/
+/*}*/
+/*.ritekhed-match-fixture*/
+/*.fixture-row*/
+/*.fixture-row-team-info span {*/
 
+/*}*/

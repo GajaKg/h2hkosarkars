@@ -30,7 +30,7 @@ function getServiceData(method, url, bool){
 let tournament = "Chalenger";
 let league1name = "Seria A/1";
 let league2name = "Seria A/2";
-let currentWeek = 1;
+let currentWeek = 2;
 let leaguesHTML = {
     "Seria A/1": "SeriaA1",
     "Seria A/2": "SeriaA2"
@@ -64,9 +64,9 @@ let league2Teams = {
 let league1Table = [];
 let league2Table = [];
 
-// let matchups = getServiceData("GET", "http://localhost/h2h/js/h2hapi.json", false);
+let matchups = getServiceData("GET", "http://localhost/h2h/js/h2hapi.json", false);
 // let matchups = getServiceData("GET", "https://api.jsonbin.io/b/5da18769ef829c4e36d69fd3", false);
-let matchups = getServiceData("GET", "https://gajakg.github.io/h2hkosarkars/js/h2hapi.json", false);
+// let matchups = getServiceData("GET", "https://gajakg.github.io/h2hkosarkars/js/h2hapi.json", false);
 
 $(document).ready(function () {
 
@@ -154,6 +154,27 @@ function renderFixturesTableByLeague(tournament, league){
             output += '</div>';
             output += '</td>';
             output += '</tr>';
+            // output += '<tr class="fixture-row">';
+            // output += '<td>';
+            // output += '<figure><img src="images/'+matchup["teamLocal"]["username"]+'.jpg" alt=""></figure>';
+            // output += '</td>';
+            // output += '<td>';
+            // output += '<div class="fixture-row-team-info">';
+            // output += '<h6>'+matchup["teamLocal"]["teamName"]+'</h6>';
+            // output += '<span>'+matchup["teamLocal"]["username"]+'</span>';
+            // output += '</div>';
+            // output += '</td>';
+            // output += '<td class="round-index">'+matchup["teamLocal"]["indexMade"]+'</td>';
+            // output += '<td><span>vs</span></td>';
+            // output += '<td class="round-index">'+matchup["teamVisitor"]["indexMade"]+'</td>';
+            // output += '<td>';
+            // output += '<figure><img src="images/'+matchup["teamVisitor"]["username"]+'.jpg" alt=""></figure>';
+            // output += '<div class="fixture-row-team-info">';
+            // output += '<h6>'+matchup["teamVisitor"]["teamName"]+'</h6>';
+            // output += '<span>'+matchup["teamVisitor"]["username"]+'</span>';
+            // output += '</div>';
+            // output += '</td>';
+            // output += '</tr>';
 
         }
         output += '</tbody>';
@@ -276,17 +297,17 @@ function renderLeagueTable(tournament, league, leagueID){
         output += "<span>"+position+"</span>";
         output += "<figure><img src='images/"+team.username+"' ></figure>";
         output += "<div class='player-stats-text'>";
-        output += "<h6>"+team.team+"</h6>";
-        output += "<span>"+team.username+"</span>";
+        output += "<h6 class='table-team-name'>"+team.team+"</h6>";
+        output += "<span class='table-team-user'>"+team.username+"</span>";
         output += "</div>";
         output += "</td>";
-        output += "<td>";
+        output += "<td class='wins'>";
         output += team.w;
         output += "</td>";
-        output += "<td>";
+        output += "<td class='loss'>";
         output += team.l;
         output += "</td>";
-        output += "<td>";
+        output += "<td class='draws'>";
         output += team.d;
         output += "</td>";
         output += "<td>";
@@ -298,7 +319,7 @@ function renderLeagueTable(tournament, league, leagueID){
         output += "<td>";
         output += team.indDiff;
         output += "</td>";
-        output += "<td>";
+        output += "<td class='points'>";
         output += team.pts;
         output += "</td>";
         output += "</tr>";
