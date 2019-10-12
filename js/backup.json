@@ -1,0 +1,117 @@
+{
+  "Chalenger": {
+    "Seria A/1": {
+      "Week 1": {
+        "Fixture 1": {
+          "teamLocal": { "username": "User1", "teamName": "Tim1", "indexMade": 111 },
+          "teamVisitor": { "username": "User2", "teamName": "Tim2", "indexMade": 110 }
+        },
+        "Fixture 2": {
+          "teamLocal": { "username": "User3", "teamName": "Tim3", "indexMade": 187 },
+          "teamVisitor": { "username": "User4", "teamName": "Tim4", "indexMade": 87 }
+        },
+        "Fixture 3": {
+          "teamLocal": { "username": "User5", "teamName": "Tim5", "indexMade": 155 },
+          "teamVisitor": { "username": "User6", "teamName": "Tim6", "indexMade": 144 }
+        },
+        "Fixture 4": {
+          "teamLocal": { "username": "User7", "teamName": "Tim7", "indexMade": 100 },
+          "teamVisitor": { "username": "User8", "teamName": "Tim8", "indexMade": 100 }
+        },
+        "Fixture 5": {
+          "teamLocal": { "username": "User9", "teamName": "Tim9", "indexMade": 135 },
+          "teamVisitor": { "username": "User10", "teamName": "Tim10", "indexMade": 180 }
+        }
+      },
+      "Week 2": {
+        "Fixture 1": {
+          "teamLocal": { "username": "User10", "teamName": "Tim10", "indexMade": 201 },
+          "teamVisitor": { "username": "User1", "teamName": "Tim1", "indexMade": 200 }
+        },
+        "Fixture 2": {
+          "teamLocal": { "username": "User2", "teamName": "Tim2", "indexMade": 144 },
+          "teamVisitor": { "username": "User9", "teamName": "Tim9", "indexMade": 168 }
+        },
+        "Fixture 3": {
+          "teamLocal": { "username": "User3", "teamName": "Tim3", "indexMade": 132 },
+          "teamVisitor": { "username": "User8", "teamName": "Tim8", "indexMade": 123 }
+        },
+        "Fixture 4": {
+          "teamLocal": { "username": "User4", "teamName": "Tim4", "indexMade": 20 },
+          "teamVisitor": { "username": "User7", "teamName": "Tim7", "indexMade": 10 }
+        },
+        "Fixture 5": {
+          "teamLocal": { "username": "User5", "teamName": "Tim5", "indexMade": 111 },
+          "teamVisitor": { "username": "User6", "teamName": "Tim6", "indexMade": 200 }
+        }
+      }
+    },
+    "Seria A/2": {
+      "Week 1": [{
+        "Fixture 1": [
+          {
+            "teamLocal": { "username": "User11", "teamName": "Tim11", "indexMade": 110 },
+            "teamVisitor": { "username": "User12", "teamName": "Tim12", "indexMade": 55 }
+          }
+        ],
+        "Fixture 2": [
+          {
+            "teamLocal": { "username": "User13", "teamName": "Tim13", "indexMade": 136 },
+            "teamVisitor": { "username": "User14", "teamName": "Tim14", "indexMade": 200 }
+          }
+        ],
+        "Fixture 3": [
+          {
+            "teamLocal": { "username": "User15", "teamName": "Tim15", "indexMade": 210 },
+            "teamVisitor": { "username": "User16", "teamName": "Tim16", "indexMade": 200 }
+          }
+        ],
+        "Fixture 4": [
+          {
+            "teamLocal": { "username": "User17", "teamName": "Tim17", "indexMade": 99 },
+            "teamVisitor": { "username": "User18", "teamName": "Tim18", "indexMade": 106 }
+          }
+        ],
+        "Fixture 5": [
+          {
+            "teamLocal": { "username": "User19", "teamName": "Tim19", "indexMade": 155 },
+            "teamVisitor": { "username": "User20", "teamName": "Tim20", "indexMade": 55 }
+          }
+        ]
+      }],
+      "Week 2": [{
+        "Fixture 1": [
+          {
+            "teamLocal": { "username": "User11", "teamName": "Tim11", "indexMade": 199 },
+            "teamVisitor": { "username": "User20", "teamName": "Tim20", "indexMade": 100 }
+          }
+        ],
+        "Fixture 2": [
+          {
+            "teamLocal": { "username": "User12", "teamName": "Tim12", "indexMade": 99 },
+            "teamVisitor": { "username": "User19", "teamName": "Tim19", "indexMade": 176 }
+          }
+        ],
+        "Fixture 3": [
+          {
+            "teamLocal": { "username": "User13", "teamName": "Tim13", "indexMade": 222 },
+            "teamVisitor": { "username": "User18", "teamName": "Tim18", "indexMade": 200 }
+          }
+        ],
+        "Fixture 4": [
+          {
+            "teamLocal": { "username": "User14", "teamName": "Tim14", "indexMade": 110 },
+            "teamVisitor": { "username": "User17", "teamName": "Tim17", "indexMade": 99 }
+          }
+        ],
+        "Fixture 5": [
+          {
+            "teamLocal": { "username": "User15", "teamName": "Tim15", "indexMade": 100 },
+            "teamVisitor": { "username": "User16", "teamName": "Tim16", "indexMade": 100 }
+          }
+        ]
+      }]
+    }
+  }
+}
+
