@@ -295,7 +295,7 @@ function renderLeagueTable(tournament, league, leagueID){
         output += "<tr>";
         output += "<td>";
         output += "<span>"+position+"</span>";
-        output += "<figure><img src='images/"+team.username+"' ></figure>";
+        output += "<figure><img src='images/"+team.username+".jpg' ></figure>";
         output += "<div class='player-stats-text'>";
         output += "<h6 class='table-team-name'>"+team.team+"</h6>";
         output += "<span class='table-team-user'>"+team.username+"</span>";
