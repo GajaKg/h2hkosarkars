@@ -65,7 +65,8 @@ let league1Table = [];
 let league2Table = [];
 
 // let matchups = getServiceData("GET", "http://localhost/h2h/js/h2hapi.json", false);
-let matchups = getServiceData("GET", "https://api.jsonbin.io/b/5da18769ef829c4e36d69fd3", false);
+// let matchups = getServiceData("GET", "https://api.jsonbin.io/b/5da18769ef829c4e36d69fd3", false);
+let matchups = getServiceData("GET", "https://gajakg.github.io/h2hkosarkars/js/h2hapi.json", false);
 
 $(document).ready(function () {
 
