@@ -64,9 +64,8 @@ let league2Teams = {
 let league1Table = [];
 let league2Table = [];
 
-// let matchups = getServiceData("GET", "http://localhost/h2h/js/h2hapi.json", false);
-// let matchups = getServiceData("GET", "https://api.jsonbin.io/b/5da18769ef829c4e36d69fd3", false);
-let matchups = getServiceData("GET", "https://gajakg.github.io/h2hkosarkars/js/h2hapi.json", false);
+let matchups = getServiceData("GET", "http://localhost/h2h/js/h2hapi.json", false);
+// let matchups = getServiceData("GET", "https://gajakg.github.io/h2hkosarkars/js/h2hapi.json", false);
 
 $(document).ready(function () {
 
@@ -135,31 +134,10 @@ function renderFixturesTableByLeague(tournament, league){
         for (let fixture in leagueWeekFixtures){
             let matchup = leagueWeekFixtures[fixture];
 
-            output += '<tr>';
-            output += '<td>';
-            output += '<figure><img src="images/'+matchup["teamLocal"]["username"]+'.jpg" alt=""></figure>';
-            output += '<div class="player-stats-text">';
-            output += '<h6>'+matchup["teamLocal"]["teamName"]+'</h6>';
-            output += '<span>'+matchup["teamLocal"]["username"]+'</span>';
-            output += '</div>';
-            output += '</td>';
-            output += '<td class="round-index">'+matchup["teamLocal"]["indexMade"]+'</td>';
-            output += '<td><span>vs</span></td>';
-            output += '<td class="round-index">'+matchup["teamVisitor"]["indexMade"]+'</td>';
-            output += '<td>';
-            output += '<figure><img src="images/'+matchup["teamVisitor"]["username"]+'.jpg" alt=""></figure>';
-            output += '<div class="player-stats-text">';
-            output += '<h6>'+matchup["teamVisitor"]["teamName"]+'</h6>';
-            output += '<span>'+matchup["teamVisitor"]["username"]+'</span>';
-            output += '</div>';
-            output += '</td>';
-            output += '</tr>';
-            // output += '<tr class="fixture-row">';
+            // output += '<tr>';
             // output += '<td>';
             // output += '<figure><img src="images/'+matchup["teamLocal"]["username"]+'.jpg" alt=""></figure>';
-            // output += '</td>';
-            // output += '<td>';
-            // output += '<div class="fixture-row-team-info">';
+            // output += '<div class="player-stats-text">';
             // output += '<h6>'+matchup["teamLocal"]["teamName"]+'</h6>';
             // output += '<span>'+matchup["teamLocal"]["username"]+'</span>';
             // output += '</div>';
@@ -169,12 +147,35 @@ function renderFixturesTableByLeague(tournament, league){
             // output += '<td class="round-index">'+matchup["teamVisitor"]["indexMade"]+'</td>';
             // output += '<td>';
             // output += '<figure><img src="images/'+matchup["teamVisitor"]["username"]+'.jpg" alt=""></figure>';
-            // output += '<div class="fixture-row-team-info">';
+            // output += '<div class="player-stats-text">';
             // output += '<h6>'+matchup["teamVisitor"]["teamName"]+'</h6>';
             // output += '<span>'+matchup["teamVisitor"]["username"]+'</span>';
             // output += '</div>';
             // output += '</td>';
             // output += '</tr>';
+            output += '<tr class="fixture-row">';
+            output += '<td class="fixture-image-holder">';
+                output += '<img src="images/'+matchup["teamLocal"]["username"]+'.jpg" alt="">';
+            output += '</td>';
+            output += '<td class="fixture-row-team-info home">';
+                output += '<div>';
+                output += '<h6>'+matchup["teamLocal"]["teamName"]+'</h6>';
+                output += '<span>'+matchup["teamLocal"]["username"]+'</span>';
+                output += '</div>';
+            output += '</td>';
+            output += '<td class="fixture-round-index">'+matchup["teamLocal"]["indexMade"]+'</td>';
+            output += '<td class="fixture-vs"><span>vs</span></td>';
+            output += '<td class="fixture-round-index">'+matchup["teamVisitor"]["indexMade"]+'</td>';
+            output += '<td class="fixture-row-team-info visitor">';
+                output += '<div>';
+                output += '<h6>'+matchup["teamVisitor"]["teamName"]+'</h6>';
+                output += '<span>'+matchup["teamVisitor"]["username"]+'</span>';
+                output += '</div>';
+            output += '</td>';
+            output += '<td class="fixture-image-holder">';
+                output += '<img src="images/'+matchup["teamVisitor"]["username"]+'.jpg">';
+            output += '</td>';
+            output += '</tr>';
 
         }
         output += '</tbody>';
