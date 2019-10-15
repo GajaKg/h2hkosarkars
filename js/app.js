@@ -64,8 +64,8 @@ let league2Teams = {
 let league1Table = [];
 let league2Table = [];
 
-// let matchups = getServiceData("GET", "http://localhost/h2h/js/h2hapi.json", false);
-let matchups = getServiceData("GET", "https://gajakg.github.io/h2hkosarkars/js/h2hapi.json", false);
+let matchups = getServiceData("GET", "http://localhost/h2h/js/h2hapi.json", false);
+// let matchups = getServiceData("GET", "https://gajakg.github.io/h2hkosarkars/js/h2hapi.json", false);
 
 $(document).ready(function () {
 
@@ -188,11 +188,12 @@ function renderFixturesTableByLeague(tournament, league){
 
 function createAndSortUserScoresByLeagueAndUsername(tournament, league, leagueTeams, username){
     let leagueWeeks = matchups[tournament][league];
-    let weekID = 1;
+    let weekID = 0;
     for (let week in leagueWeeks){
+        weekID++;
         console.log(".");
+        if (weekID == currentWeek) return;
         let weekFixtures = leagueWeeks[week];
-
         for (let fixture in weekFixtures){
             let matchup = weekFixtures[fixture];
 
@@ -220,6 +221,7 @@ function createAndSortUserScoresByLeagueAndUsername(tournament, league, leagueTe
                 leagueTeams[username]["indDown"] += indDown;
                 leagueTeams[username]["indDiff"] += indDiff;
                 leagueTeams[username]["pts"] += pts;
+                break;
             }
             if (matchup["teamVisitor"]["username"] == username){
                 let pts = 0, w = 0, l = 0, d = 0;
@@ -245,11 +247,12 @@ function createAndSortUserScoresByLeagueAndUsername(tournament, league, leagueTe
                 leagueTeams[username]["indDown"] += indDown;
                 leagueTeams[username]["indDiff"] += indDiff;
                 leagueTeams[username]["pts"] += pts;
+                break;
             }
 
         }
 
-        return weekID == currentWeek;
+
     }
 
 }
