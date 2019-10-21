@@ -30,7 +30,7 @@ function getServiceData(method, url, bool){
 let tournament = "Chalenger";
 let league1name = "Seria A/1";
 let league2name = "Seria A/2";
-let currentWeek = 3;
+let currentWeek = 4;
 let leaguesHTML = {
     "Seria A/1": "SeriaA1",
     "Seria A/2": "SeriaA2"
