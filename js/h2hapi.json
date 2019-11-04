@@ -91,24 +91,24 @@
             },
             "Week 5": {
                 "Fixture 1": {
-                    "teamLocal": { "username": "Skeva", "teamName": "Davorike Dajke", "indexMade": 0 },
-                    "teamVisitor": { "username": "Djordjino", "teamName": "Djordjino", "indexMade": 0 }
+                    "teamLocal": { "username": "Skeva", "teamName": "Davorike Dajke", "indexMade": 94 },
+                    "teamVisitor": { "username": "Djordjino", "teamName": "Djordjino", "indexMade": 95 }
                 },
                 "Fixture 2": {
-                    "teamLocal": { "username": "Surda", "teamName": "KK Skugric", "indexMade": 0 },
-                    "teamVisitor": { "username": "Lucky", "teamName": "Boca Juniors", "indexMade": 0 }
+                    "teamLocal": { "username": "Surda", "teamName": "KK Skugric", "indexMade": 118 },
+                    "teamVisitor": { "username": "Lucky", "teamName": "Boca Juniors", "indexMade": 98 }
                 },
                 "Fixture 3": {
-                    "teamLocal": { "username": "DD", "teamName": "K42", "indexMade": 0 },
-                    "teamVisitor": { "username": "Obilic", "teamName": "KK Sipurske Livade", "indexMade": 0 }
+                    "teamLocal": { "username": "DD", "teamName": "K42", "indexMade": 102 },
+                    "teamVisitor": { "username": "Obilic", "teamName": "KK Sipurske Livade", "indexMade": 104 }
                 },
                 "Fixture 4": {
-                    "teamLocal": { "username": "Antonie", "teamName": "Madness", "indexMade": 0 },
-                    "teamVisitor": { "username": "Gira S", "teamName": "Gira S", "indexMade": 0 }
+                    "teamLocal": { "username": "Antonie", "teamName": "Madness", "indexMade": 111 },
+                    "teamVisitor": { "username": "Gira S", "teamName": "Gira S", "indexMade": 107 }
                 },
                 "Fixture 5": {
-                    "teamLocal": { "username": "AugriAugri", "teamName": "Pokvareni Osmijeh", "indexMade": 0 },
-                    "teamVisitor": { "username": "Korto Malteze", "teamName": "Korto Malteze", "indexMade": 0 }
+                    "teamLocal": { "username": "AugriAugri", "teamName": "Pokvareni Osmijeh", "indexMade": 72 },
+                    "teamVisitor": { "username": "Korto Malteze", "teamName": "Korto Malteze", "indexMade": 92 }
                 }
             },
             "Week 6": {
@@ -291,24 +291,24 @@
             },
             "Week 5": {
                 "Fixture 1": {
-                    "teamLocal": { "username": "Lika", "teamName": "Gagulatori", "indexMade": 0 },
-                    "teamVisitor": { "username": "Loki", "teamName": "Heads Up", "indexMade": 0 }
+                    "teamLocal": { "username": "Lika", "teamName": "Gagulatori", "indexMade": 109 },
+                    "teamVisitor": { "username": "Loki", "teamName": "Heads Up", "indexMade": 134 }
                 },
                 "Fixture 2": {
-                    "teamLocal": { "username": "Answer", "teamName": "Kati Magiko", "indexMade": 0 },
-                    "teamVisitor": { "username": "Amiga500", "teamName": "Radnik sa Liona", "indexMade": 0 }
+                    "teamLocal": { "username": "Answer", "teamName": "Kati Magiko", "indexMade": 107 },
+                    "teamVisitor": { "username": "Amiga500", "teamName": "Radnik sa Liona", "indexMade": 103 }
                 },
                 "Fixture 3": {
-                    "teamLocal": { "username": "Gira J", "teamName": "Gira J", "indexMade": 0 },
-                    "teamVisitor": { "username": "Milanezija", "teamName": "Cafe Rene", "indexMade": 0 }
+                    "teamLocal": { "username": "Gira J", "teamName": "Gira J", "indexMade": 117 },
+                    "teamVisitor": { "username": "Milanezija", "teamName": "Cafe Rene", "indexMade": 88 }
                 },
                 "Fixture 4": {
-                    "teamLocal": { "username": "Vincent Vega", "teamName": "Lude Zene", "indexMade": 0 },
-                    "teamVisitor": { "username": "Mutinjo", "teamName": "Gladijatori", "indexMade": 0 }
+                    "teamLocal": { "username": "Vincent Vega", "teamName": "Lude Zene", "indexMade": 105 },
+                    "teamVisitor": { "username": "Mutinjo", "teamName": "Gladijatori", "indexMade": 97 }
                 },
                 "Fixture 5": {
-                    "teamLocal": { "username": "Gaja", "teamName": "Klosari", "indexMade": 0 },
-                    "teamVisitor": { "username": "Zex88", "teamName": "Meteor", "indexMade": 0 }
+                    "teamLocal": { "username": "Gaja", "teamName": "Klosari", "indexMade": 114 },
+                    "teamVisitor": { "username": "Zex88", "teamName": "Meteor", "indexMade": 107 }
                 }
             },
             "Week 6": {
