@@ -69,7 +69,6 @@ let matchups = getServiceData("GET", "https://gajakg.github.io/h2hkosarkars/js/h
 
 $(document).ready(function () {
 
-
     renderFixturesTableByLeague("Chalenger", "Seria A/1");
     renderFixturesTableByLeague("Chalenger", "Seria A/2");
 
@@ -134,25 +133,6 @@ function renderFixturesTableByLeague(tournament, league){
         for (let fixture in leagueWeekFixtures){
             let matchup = leagueWeekFixtures[fixture];
 
-            // output += '<tr>';
-            // output += '<td>';
-            // output += '<figure><img src="images/'+matchup["teamLocal"]["username"]+'.jpg" alt=""></figure>';
-            // output += '<div class="player-stats-text">';
-            // output += '<h6>'+matchup["teamLocal"]["teamName"]+'</h6>';
-            // output += '<span>'+matchup["teamLocal"]["username"]+'</span>';
-            // output += '</div>';
-            // output += '</td>';
-            // output += '<td class="round-index">'+matchup["teamLocal"]["indexMade"]+'</td>';
-            // output += '<td><span>vs</span></td>';
-            // output += '<td class="round-index">'+matchup["teamVisitor"]["indexMade"]+'</td>';
-            // output += '<td>';
-            // output += '<figure><img src="images/'+matchup["teamVisitor"]["username"]+'.jpg" alt=""></figure>';
-            // output += '<div class="player-stats-text">';
-            // output += '<h6>'+matchup["teamVisitor"]["teamName"]+'</h6>';
-            // output += '<span>'+matchup["teamVisitor"]["username"]+'</span>';
-            // output += '</div>';
-            // output += '</td>';
-            // output += '</tr>';
             output += '<tr class="fixture-row">';
             output += '<td class="fixture-image-holder">';
                 output += '<img src="images/'+matchup["teamLocal"]["username"]+'.jpg" alt="">';
