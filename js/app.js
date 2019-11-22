@@ -280,10 +280,10 @@ function sortTable(leagueTeams, leagueID){
     sortedLeague.sort(function(team1, team2){
         if (team1.pts < team2.pts) return 1;
         if (team1.pts > team2.pts) return -1;
-        if (team1.indDiff < team2.indDiff) return 1;
-        if (team1.indDiff > team2.indDiff) return -1;
         if (team1.indUp < team2.indUp) return 1;
         if (team1.indUp > team2.indUp) return -1;
+        if (team1.indDiff < team2.indDiff) return 1;
+        if (team1.indDiff > team2.indDiff) return -1;
         if (team1.indDown < team2.indDown) return 1;
         if (team1.indDown > team2.indDown) return -1;
     });
