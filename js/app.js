@@ -30,7 +30,9 @@ function getServiceData(method, url, bool){
 let tournament = "Chalenger";
 let league1name = "Seria A/1";
 let league2name = "Seria A/2";
-let currentWeek = 9;
+let currentWeek = 10;
+// let selectWeek = currentWeek;
+let selectWeek = 9;
 let leaguesHTML = {
     "Seria A/1": "SeriaA1",
     "Seria A/2": "SeriaA2"
@@ -75,8 +77,8 @@ $(document).ready(function () {
     renderWeeksTableByLeague("Chalenger", "Seria A/1");
     renderWeeksTableByLeague("Chalenger", "Seria A/2");
 
-    $("#SeriaA1-week-"+currentWeek).show();
-    $("#SeriaA2-week-"+currentWeek).show();
+    $("#SeriaA1-week-"+selectWeek).show();
+    $("#SeriaA2-week-"+selectWeek).show();
 
     $("#SeriaA1-round-holder .round-item").on("click", function () {
         showSelectedWeekByLeague("SeriaA1", this)
@@ -102,7 +104,7 @@ function renderWeeksTableByLeague(tournament, league){
     let weekID = 0;
     for (let week in leagueFixtures){
         weekID++;
-        let currentClass = (weekID == currentWeek) ? "round-active" : "";
+        let currentClass = (weekID == selectWeek) ? "round-active" : "";
         $("#"+leagueID+"-round-holder").append('<div class="round-item '+currentClass+'" data-round="'+weekID+'">'+weekID+'</div>');
     }
 
