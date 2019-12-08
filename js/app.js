@@ -66,8 +66,8 @@ let league2Teams = {
 let league1Table = [];
 let league2Table = [];
 
-// let matchups = getServiceData("GET", "http://localhost/h2h/js/h2hapi.json", false);
-let matchups = getServiceData("GET", "https://gajakg.github.io/h2hkosarkars/js/h2hapi.json", false);
+let matchups = getServiceData("GET", "http://localhost/h2h/js/h2hapi.json", false);
+// let matchups = getServiceData("GET", "https://gajakg.github.io/h2hkosarkars/js/h2hapi.json", false);
 
 $(document).ready(function () {
 
@@ -95,6 +95,10 @@ $(document).ready(function () {
         createAndSortUserScoresByLeagueAndUsername(tournament, league2name, league2Teams, username);
     }
     sortTable(league2Teams, "SeriaA2");
+
+    $(".regular-season-button").on("click", function () {
+       $(".regular-season").slideToggle(600);
+    });
 
 });
 
@@ -264,10 +268,10 @@ function sortTable(leagueTeams, leagueID){
         if (team1.pts > team2.pts) return -1;
         if (team1.indUp < team2.indUp) return 1;
         if (team1.indUp > team2.indUp) return -1;
-        if (team1.indDiff < team2.indDiff) return 1;
-        if (team1.indDiff > team2.indDiff) return -1;
-        if (team1.indDown < team2.indDown) return 1;
-        if (team1.indDown > team2.indDown) return -1;
+        // if (team1.indDiff < team2.indDiff) return 1;
+        // if (team1.indDiff > team2.indDiff) return -1;
+        // if (team1.indDown < team2.indDown) return 1;
+        // if (team1.indDown > team2.indDown) return -1;
     });
     renderLeagueTable(tournament, sortedLeague, leagueID);
 }

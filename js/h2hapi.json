@@ -203,200 +203,560 @@
     "Seria A/2": {
       "Week 1": {
         "Fixture 1": {
-          "teamLocal": { "username": "Lika", "teamName": "Gagulatori", "indexMade": 79 },
-          "teamVisitor": { "username": "Gaja", "teamName": "Klosari", "indexMade": 107 }
+          "teamLocal": {
+            "username": "Lika",
+            "teamName": "Gagulatori",
+            "indexMade": 79
+          },
+          "teamVisitor": {
+            "username": "Gaja",
+            "teamName": "Klosari",
+            "indexMade": 107
+          }
         },
         "Fixture 2": {
-          "teamLocal": { "username": "Zex88", "teamName": "Meteor", "indexMade": 102 },
-          "teamVisitor": { "username": "Vincent Vega", "teamName": "Lude Zene", "indexMade": 91 }
+          "teamLocal": {
+            "username": "Zex88",
+            "teamName": "Meteor",
+            "indexMade": 102
+          },
+          "teamVisitor": {
+            "username": "Vincent Vega",
+            "teamName": "Lude Zene",
+            "indexMade": 91
+          }
         },
         "Fixture 3": {
-          "teamLocal": { "username": "Mutinjo", "teamName": "Gladijatori", "indexMade": 117 },
-          "teamVisitor": { "username": "Gira J", "teamName": "Gira J", "indexMade": 104 }
+          "teamLocal": {
+            "username": "Mutinjo",
+            "teamName": "Gladijatori",
+            "indexMade": 117
+          },
+          "teamVisitor": {
+            "username": "Gira J",
+            "teamName": "Gira J",
+            "indexMade": 104
+          }
         },
         "Fixture 4": {
-          "teamLocal": { "username": "Milanezija", "teamName": "Cafe Rene", "indexMade": 122 },
-          "teamVisitor": { "username": "Answer", "teamName": "Kati Magiko", "indexMade": 108 }
+          "teamLocal": {
+            "username": "Milanezija",
+            "teamName": "Cafe Rene",
+            "indexMade": 122
+          },
+          "teamVisitor": {
+            "username": "Answer",
+            "teamName": "Kati Magiko",
+            "indexMade": 108
+          }
         },
         "Fixture 5": {
-          "teamLocal": { "username": "Amiga500", "teamName": "Radnik sa Liona", "indexMade": 118 },
-          "teamVisitor": { "username": "Loki", "teamName": "Heads Up", "indexMade": 133 }
+          "teamLocal": {
+            "username": "Amiga500",
+            "teamName": "Radnik sa Liona",
+            "indexMade": 118
+          },
+          "teamVisitor": {
+            "username": "Loki",
+            "teamName": "Heads Up",
+            "indexMade": 133
+          }
         }
       },
       "Week 2": {
         "Fixture 1": {
-          "teamLocal": { "username": "Vincent Vega", "teamName": "Lude Zene", "indexMade": 132 },
-          "teamVisitor": { "username": "Lika", "teamName": "Gagulatori", "indexMade": 126 }
+          "teamLocal": {
+            "username": "Vincent Vega",
+            "teamName": "Lude Zene",
+            "indexMade": 132
+          },
+          "teamVisitor": {
+            "username": "Lika",
+            "teamName": "Gagulatori",
+            "indexMade": 126
+          }
         },
         "Fixture 2": {
-          "teamLocal": { "username": "Gira J", "teamName": "Gira J", "indexMade": 94 },
-          "teamVisitor": { "username": "Gaja", "teamName": "Klosari", "indexMade": 107 }
+          "teamLocal": {
+            "username": "Gira J",
+            "teamName": "Gira J",
+            "indexMade": 94
+          },
+          "teamVisitor": {
+            "username": "Gaja",
+            "teamName": "Klosari",
+            "indexMade": 107
+          }
         },
         "Fixture 3": {
-          "teamLocal": { "username": "Answer", "teamName": "Kati Magiko", "indexMade": 163 },
-          "teamVisitor": { "username": "Zex88", "teamName": "Meteor", "indexMade": 147 }
+          "teamLocal": {
+            "username": "Answer",
+            "teamName": "Kati Magiko",
+            "indexMade": 163
+          },
+          "teamVisitor": {
+            "username": "Zex88",
+            "teamName": "Meteor",
+            "indexMade": 147
+          }
         },
         "Fixture 4": {
-          "teamLocal": { "username": "Loki", "teamName": "Heads Up", "indexMade": 162 },
-          "teamVisitor": { "username": "Mutinjo", "teamName": "Gladijatori", "indexMade": 172 }
+          "teamLocal": {
+            "username": "Loki",
+            "teamName": "Heads Up",
+            "indexMade": 162
+          },
+          "teamVisitor": {
+            "username": "Mutinjo",
+            "teamName": "Gladijatori",
+            "indexMade": 172
+          }
         },
         "Fixture 5": {
-          "teamLocal": { "username": "Amiga500", "teamName": "Radnik sa Liona", "indexMade": 128 },
-          "teamVisitor": { "username": "Milanezija", "teamName": "Cafe Rene", "indexMade": 206 }
+          "teamLocal": {
+            "username": "Amiga500",
+            "teamName": "Radnik sa Liona",
+            "indexMade": 128
+          },
+          "teamVisitor": {
+            "username": "Milanezija",
+            "teamName": "Cafe Rene",
+            "indexMade": 206
+          }
         }
       },
       "Week 3": {
         "Fixture 1": {
-          "teamLocal": { "username": "Lika", "teamName": "Gagulatori", "indexMade": 157 },
-          "teamVisitor": { "username": "Gira J", "teamName": "Gira J", "indexMade": 106 }
+          "teamLocal": {
+            "username": "Lika",
+            "teamName": "Gagulatori",
+            "indexMade": 157
+          },
+          "teamVisitor": {
+            "username": "Gira J",
+            "teamName": "Gira J",
+            "indexMade": 106
+          }
         },
         "Fixture 2": {
-          "teamLocal": { "username": "Vincent Vega", "teamName": "Lude Zene", "indexMade": 158 },
-          "teamVisitor": { "username": "Answer", "teamName": "Kati Magiko", "indexMade": 142 }
+          "teamLocal": {
+            "username": "Vincent Vega",
+            "teamName": "Lude Zene",
+            "indexMade": 158
+          },
+          "teamVisitor": {
+            "username": "Answer",
+            "teamName": "Kati Magiko",
+            "indexMade": 142
+          }
         },
         "Fixture 3": {
-          "teamLocal": { "username": "Gaja", "teamName": "Klosari", "indexMade": 98 },
-          "teamVisitor": { "username": "Loki", "teamName": "Heads Up", "indexMade": 120 }
+          "teamLocal": {
+            "username": "Gaja",
+            "teamName": "Klosari",
+            "indexMade": 98
+          },
+          "teamVisitor": {
+            "username": "Loki",
+            "teamName": "Heads Up",
+            "indexMade": 120
+          }
         },
         "Fixture 4": {
-          "teamLocal": { "username": "Zex88", "teamName": "Meteor", "indexMade": 178 },
-          "teamVisitor": { "username": "Amiga500", "teamName": "Radnik sa Liona", "indexMade": 146 }
+          "teamLocal": {
+            "username": "Zex88",
+            "teamName": "Meteor",
+            "indexMade": 178
+          },
+          "teamVisitor": {
+            "username": "Amiga500",
+            "teamName": "Radnik sa Liona",
+            "indexMade": 146
+          }
         },
         "Fixture 5": {
-          "teamLocal": { "username": "Mutinjo", "teamName": "Gladijatori", "indexMade": 142 },
-          "teamVisitor": { "username": "Milanezija", "teamName": "Cafe Rene", "indexMade": 169 }
+          "teamLocal": {
+            "username": "Mutinjo",
+            "teamName": "Gladijatori",
+            "indexMade": 142
+          },
+          "teamVisitor": {
+            "username": "Milanezija",
+            "teamName": "Cafe Rene",
+            "indexMade": 169
+          }
         }
       },
       "Week 4": {
         "Fixture 1": {
-          "teamLocal": { "username": "Answer", "teamName": "Kati Magiko", "indexMade": 99 },
-          "teamVisitor": { "username": "Lika", "teamName": "Gagulatori", "indexMade": 91 }
+          "teamLocal": {
+            "username": "Answer",
+            "teamName": "Kati Magiko",
+            "indexMade": 99
+          },
+          "teamVisitor": {
+            "username": "Lika",
+            "teamName": "Gagulatori",
+            "indexMade": 91
+          }
         },
         "Fixture 2": {
-          "teamLocal": { "username": "Loki", "teamName": "Heads Up", "indexMade": 125 },
-          "teamVisitor": { "username": "Gira J", "teamName": "Gira J", "indexMade": 60 }
+          "teamLocal": {
+            "username": "Loki",
+            "teamName": "Heads Up",
+            "indexMade": 125
+          },
+          "teamVisitor": {
+            "username": "Gira J",
+            "teamName": "Gira J",
+            "indexMade": 60
+          }
         },
         "Fixture 3": {
-          "teamLocal": { "username": "Amiga500", "teamName": "Radnik sa Liona", "indexMade": 144 },
-          "teamVisitor": { "username": "Vincent Vega", "teamName": "Lude Zene", "indexMade": 101 }
+          "teamLocal": {
+            "username": "Amiga500",
+            "teamName": "Radnik sa Liona",
+            "indexMade": 144
+          },
+          "teamVisitor": {
+            "username": "Vincent Vega",
+            "teamName": "Lude Zene",
+            "indexMade": 101
+          }
         },
         "Fixture 4": {
-          "teamLocal": { "username": "Milanezija", "teamName": "Cafe Rene", "indexMade": 113 },
-          "teamVisitor": { "username": "Gaja", "teamName": "Klosari", "indexMade": 98 }
+          "teamLocal": {
+            "username": "Milanezija",
+            "teamName": "Cafe Rene",
+            "indexMade": 113
+          },
+          "teamVisitor": {
+            "username": "Gaja",
+            "teamName": "Klosari",
+            "indexMade": 98
+          }
         },
         "Fixture 5": {
-          "teamLocal": { "username": "Mutinjo", "teamName": "Gladijatori", "indexMade": 105 },
-          "teamVisitor": { "username": "Zex88", "teamName": "Meteor", "indexMade": 138 }
+          "teamLocal": {
+            "username": "Mutinjo",
+            "teamName": "Gladijatori",
+            "indexMade": 105
+          },
+          "teamVisitor": {
+            "username": "Zex88",
+            "teamName": "Meteor",
+            "indexMade": 138
+          }
         }
       },
       "Week 5": {
         "Fixture 1": {
-          "teamLocal": { "username": "Lika", "teamName": "Gagulatori", "indexMade": 109 },
-          "teamVisitor": { "username": "Loki", "teamName": "Heads Up", "indexMade": 134 }
+          "teamLocal": {
+            "username": "Lika",
+            "teamName": "Gagulatori",
+            "indexMade": 109
+          },
+          "teamVisitor": {
+            "username": "Loki",
+            "teamName": "Heads Up",
+            "indexMade": 134
+          }
         },
         "Fixture 2": {
-          "teamLocal": { "username": "Answer", "teamName": "Kati Magiko", "indexMade": 107 },
-          "teamVisitor": { "username": "Amiga500", "teamName": "Radnik sa Liona", "indexMade": 103 }
+          "teamLocal": {
+            "username": "Answer",
+            "teamName": "Kati Magiko",
+            "indexMade": 107
+          },
+          "teamVisitor": {
+            "username": "Amiga500",
+            "teamName": "Radnik sa Liona",
+            "indexMade": 103
+          }
         },
         "Fixture 3": {
-          "teamLocal": { "username": "Gira J", "teamName": "Gira J", "indexMade": 117 },
-          "teamVisitor": { "username": "Milanezija", "teamName": "Cafe Rene", "indexMade": 88 }
+          "teamLocal": {
+            "username": "Gira J",
+            "teamName": "Gira J",
+            "indexMade": 117
+          },
+          "teamVisitor": {
+            "username": "Milanezija",
+            "teamName": "Cafe Rene",
+            "indexMade": 88
+          }
         },
         "Fixture 4": {
-          "teamLocal": { "username": "Vincent Vega", "teamName": "Lude Zene", "indexMade": 105 },
-          "teamVisitor": { "username": "Mutinjo", "teamName": "Gladijatori", "indexMade": 97 }
+          "teamLocal": {
+            "username": "Vincent Vega",
+            "teamName": "Lude Zene",
+            "indexMade": 105
+          },
+          "teamVisitor": {
+            "username": "Mutinjo",
+            "teamName": "Gladijatori",
+            "indexMade": 97
+          }
         },
         "Fixture 5": {
-          "teamLocal": { "username": "Gaja", "teamName": "Klosari", "indexMade": 114 },
-          "teamVisitor": { "username": "Zex88", "teamName": "Meteor", "indexMade": 107 }
+          "teamLocal": {
+            "username": "Gaja",
+            "teamName": "Klosari",
+            "indexMade": 114
+          },
+          "teamVisitor": {
+            "username": "Zex88",
+            "teamName": "Meteor",
+            "indexMade": 107
+          }
         }
       },
       "Week 6": {
         "Fixture 1": {
-          "teamLocal": { "username": "Amiga500", "teamName": "Radnik sa Liona", "indexMade": 95 },
-          "teamVisitor": { "username": "Lika", "teamName": "Gagulatori", "indexMade": 104 }
+          "teamLocal": {
+            "username": "Amiga500",
+            "teamName": "Radnik sa Liona",
+            "indexMade": 95
+          },
+          "teamVisitor": {
+            "username": "Lika",
+            "teamName": "Gagulatori",
+            "indexMade": 104
+          }
         },
         "Fixture 2": {
-          "teamLocal": { "username": "Milanezija", "teamName": "Cafe Rene", "indexMade": 113 },
-          "teamVisitor": { "username": "Loki", "teamName": "Heads Up", "indexMade": 129 }
+          "teamLocal": {
+            "username": "Milanezija",
+            "teamName": "Cafe Rene",
+            "indexMade": 113
+          },
+          "teamVisitor": {
+            "username": "Loki",
+            "teamName": "Heads Up",
+            "indexMade": 129
+          }
         },
         "Fixture 3": {
-          "teamLocal": { "username": "Mutinjo", "teamName": "Gladijatori", "indexMade": 129 },
-          "teamVisitor": { "username": "Answer", "teamName": "Kati Magiko", "indexMade": 104 }
+          "teamLocal": {
+            "username": "Mutinjo",
+            "teamName": "Gladijatori",
+            "indexMade": 129
+          },
+          "teamVisitor": {
+            "username": "Answer",
+            "teamName": "Kati Magiko",
+            "indexMade": 104
+          }
         },
         "Fixture 4": {
-          "teamLocal": { "username": "Zex88", "teamName": "Meteor", "indexMade": 126 },
-          "teamVisitor": { "username": "Gira J", "teamName": "Gira J", "indexMade": 83 }
+          "teamLocal": {
+            "username": "Zex88",
+            "teamName": "Meteor",
+            "indexMade": 126
+          },
+          "teamVisitor": {
+            "username": "Gira J",
+            "teamName": "Gira J",
+            "indexMade": 83
+          }
         },
         "Fixture 5": {
-          "teamLocal": { "username": "Gaja", "teamName": "Klosari", "indexMade": 65 },
-          "teamVisitor": { "username": "Vincent Vega", "teamName": "Lude Zene", "indexMade": 118 }
+          "teamLocal": {
+            "username": "Gaja",
+            "teamName": "Klosari",
+            "indexMade": 65
+          },
+          "teamVisitor": {
+            "username": "Vincent Vega",
+            "teamName": "Lude Zene",
+            "indexMade": 118
+          }
         }
       },
       "Week 7": {
         "Fixture 1": {
-          "teamLocal": { "username": "Lika", "teamName": "Gagulatori", "indexMade": 98 },
-          "teamVisitor": { "username": "Milanezija", "teamName": "Cafe Rene", "indexMade": 117 }
+          "teamLocal": {
+            "username": "Lika",
+            "teamName": "Gagulatori",
+            "indexMade": 98
+          },
+          "teamVisitor": {
+            "username": "Milanezija",
+            "teamName": "Cafe Rene",
+            "indexMade": 117
+          }
         },
         "Fixture 2": {
-          "teamLocal": { "username": "Amiga500", "teamName": "Radnik sa Liona", "indexMade": 122 },
-          "teamVisitor": { "username": "Mutinjo", "teamName": "Gladijatori", "indexMade": 148 }
+          "teamLocal": {
+            "username": "Amiga500",
+            "teamName": "Radnik sa Liona",
+            "indexMade": 122
+          },
+          "teamVisitor": {
+            "username": "Mutinjo",
+            "teamName": "Gladijatori",
+            "indexMade": 148
+          }
         },
         "Fixture 3": {
-          "teamLocal": { "username": "Loki", "teamName": "Heads Up", "indexMade": 109 },
-          "teamVisitor": { "username": "Zex88", "teamName": "Meteor", "indexMade": 114 }
+          "teamLocal": {
+            "username": "Loki",
+            "teamName": "Heads Up",
+            "indexMade": 109
+          },
+          "teamVisitor": {
+            "username": "Zex88",
+            "teamName": "Meteor",
+            "indexMade": 114
+          }
         },
         "Fixture 4": {
-          "teamLocal": { "username": "Answer", "teamName": "Kati Magiko", "indexMade": 140 },
-          "teamVisitor": { "username": "Gaja", "teamName": "Klosari", "indexMade": 83 }
+          "teamLocal": {
+            "username": "Answer",
+            "teamName": "Kati Magiko",
+            "indexMade": 140
+          },
+          "teamVisitor": {
+            "username": "Gaja",
+            "teamName": "Klosari",
+            "indexMade": 83
+          }
         },
         "Fixture 5": {
-          "teamLocal": { "username": "Gira J", "teamName": "Gira J", "indexMade": 152 },
-          "teamVisitor": { "username": "Vincent Vega", "teamName": "Lude Zene", "indexMade": 121 }
+          "teamLocal": {
+            "username": "Gira J",
+            "teamName": "Gira J",
+            "indexMade": 152
+          },
+          "teamVisitor": {
+            "username": "Vincent Vega",
+            "teamName": "Lude Zene",
+            "indexMade": 121
+          }
         }
       },
       "Week 8": {
         "Fixture 1": {
-          "teamLocal": { "username": "Mutinjo", "teamName": "Gladijatori", "indexMade": 146 },
-          "teamVisitor": { "username": "Lika", "teamName": "Gagulatori", "indexMade": 173 }
+          "teamLocal": {
+            "username": "Mutinjo",
+            "teamName": "Gladijatori",
+            "indexMade": 146
+          },
+          "teamVisitor": {
+            "username": "Lika",
+            "teamName": "Gagulatori",
+            "indexMade": 173
+          }
         },
         "Fixture 2": {
-          "teamLocal": { "username": "Zex88", "teamName": "Meteor", "indexMade": 137 },
-          "teamVisitor": { "username": "Milanezija", "teamName": "Cafe Rene", "indexMade": 128 }
+          "teamLocal": {
+            "username": "Zex88",
+            "teamName": "Meteor",
+            "indexMade": 137
+          },
+          "teamVisitor": {
+            "username": "Milanezija",
+            "teamName": "Cafe Rene",
+            "indexMade": 128
+          }
         },
         "Fixture 3": {
-          "teamLocal": { "username": "Gaja", "teamName": "Klosari", "indexMade": 126 },
-          "teamVisitor": { "username": "Amiga500", "teamName": "Radnik sa Liona", "indexMade": 166 }
+          "teamLocal": {
+            "username": "Gaja",
+            "teamName": "Klosari",
+            "indexMade": 126
+          },
+          "teamVisitor": {
+            "username": "Amiga500",
+            "teamName": "Radnik sa Liona",
+            "indexMade": 166
+          }
         },
         "Fixture 4": {
-          "teamLocal": { "username": "Vincent Vega", "teamName": "Lude Zene", "indexMade": 152 },
-          "teamVisitor": { "username": "Loki", "teamName": "Heads Up", "indexMade": 176 }
+          "teamLocal": {
+            "username": "Vincent Vega",
+            "teamName": "Lude Zene",
+            "indexMade": 152
+          },
+          "teamVisitor": {
+            "username": "Loki",
+            "teamName": "Heads Up",
+            "indexMade": 176
+          }
         },
         "Fixture 5": {
-          "teamLocal": { "username": "Gira J", "teamName": "Gira J", "indexMade": 148 },
-          "teamVisitor": { "username": "Answer", "teamName": "Kati Magiko", "indexMade": 150 }
+          "teamLocal": {
+            "username": "Gira J",
+            "teamName": "Gira J",
+            "indexMade": 148
+          },
+          "teamVisitor": {
+            "username": "Answer",
+            "teamName": "Kati Magiko",
+            "indexMade": 150
+          }
         }
       },
       "Week 9": {
         "Fixture 1": {
-          "teamLocal": { "username": "Lika", "teamName": "Gagulatori", "indexMade": 106 },
-          "teamVisitor": { "username": "Zex88", "teamName": "Meteor", "indexMade": 114 }
+          "teamLocal": {
+            "username": "Lika",
+            "teamName": "Gagulatori",
+            "indexMade": 106
+          },
+          "teamVisitor": {
+            "username": "Zex88",
+            "teamName": "Meteor",
+            "indexMade": 114
+          }
         },
         "Fixture 2": {
-          "teamLocal": { "username": "Mutinjo", "teamName": "Gladijatori", "indexMade": 81 },
-          "teamVisitor": { "username": "Gaja", "teamName": "Klosari", "indexMade": 79 }
+          "teamLocal": {
+            "username": "Mutinjo",
+            "teamName": "Gladijatori",
+            "indexMade": 81
+          },
+          "teamVisitor": {
+            "username": "Gaja",
+            "teamName": "Klosari",
+            "indexMade": 79
+          }
         },
         "Fixture 3": {
-          "teamLocal": { "username": "Milanezija", "teamName": "Cafe Rene", "indexMade": 106 },
-          "teamVisitor": { "username": "Vincent Vega", "teamName": "Lude Zene", "indexMade": 119 }
+          "teamLocal": {
+            "username": "Milanezija",
+            "teamName": "Cafe Rene",
+            "indexMade": 106
+          },
+          "teamVisitor": {
+            "username": "Vincent Vega",
+            "teamName": "Lude Zene",
+            "indexMade": 119
+          }
         },
         "Fixture 4": {
-          "teamLocal": { "username": "Amiga500", "teamName": "Radnik sa Liona", "indexMade": 78 },
-          "teamVisitor": { "username": "Gira J", "teamName": "Gira J", "indexMade": 111 }
+          "teamLocal": {
+            "username": "Amiga500",
+            "teamName": "Radnik sa Liona",
+            "indexMade": 78
+          },
+          "teamVisitor": {
+            "username": "Gira J",
+            "teamName": "Gira J",
+            "indexMade": 111
+          }
         },
         "Fixture 5": {
-          "teamLocal": { "username": "Loki", "teamName": "Heads Up", "indexMade": 70 },
-          "teamVisitor": { "username": "Answer", "teamName": "Kati Magiko", "indexMade": 93 }
+          "teamLocal": {
+            "username": "Loki",
+            "teamName": "Heads Up",
+            "indexMade": 70
+          },
+          "teamVisitor": {
+            "username": "Answer",
+            "teamName": "Kati Magiko",
+            "indexMade": 93
+          }
         }
       }
     }
