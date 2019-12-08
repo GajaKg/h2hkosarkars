@@ -491,7 +491,19 @@ form_main {
 
 
 
+.regular-season-button {
+    cursor: pointer;
+}
+.regular-season {
+    display: none;
+}
+.regular-season:after {
+    display: block;
+    content: '';
+    height: 0;
+    clear: both;
 
+}
 
 
 
