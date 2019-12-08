@@ -469,9 +469,16 @@ form_main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
-
+    margin-top: 30px;
 }
-
+.bracket-play-off {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.bracket-play-off .fixture-row {
+    grid-template-columns: 66px 1fr 50px 50px 50px;
+}
 .bracket-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -481,21 +488,35 @@ form_main {
 .bracket-column-sub {
     display: grid;
     align-content: center;
+    width: 320px;
+    grid-gap: 80px;
     /*justify-content: center;*/
 }
 
 .bracket-playoff {
     display: grid;
     align-content: center;
+    grid-gap: 80px;
 }
 
+.bracket .fixture-row {
+    grid-template-columns: 66px 1fr 39px 39px 39px;
+}
 
+.bracket tbody > tr:first-child {
+    background-color: #e1e1e1;
+}
+
+.bracket-column-pair > table:first-child {
+    margin-bottom: 20px;
+}
 
 .regular-season-button {
     cursor: pointer;
+    margin-top: 80px;
 }
 .regular-season {
-    display: none;
+    /*display: none;*/
 }
 .regular-season:after {
     display: block;
@@ -505,12 +526,28 @@ form_main {
 
 }
 
+.bracket.col-md-12 {
+    padding: 0;
+}
 
 
 
 
-
-
+@media screen and (max-width: 1180px) {
+    .bracket {
+        grid-template-columns: 1fr;
+    }
+    .bracket-row {
+        grid-template-columns: 1fr;
+    }
+    .bracket-column-sub {
+        width: 100%;
+    }
+    .bracket-play-off {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
 
 
 

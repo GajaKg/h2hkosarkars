@@ -97,7 +97,17 @@ $(document).ready(function () {
     sortTable(league2Teams, "SeriaA2");
 
     $(".regular-season-button").on("click", function () {
-       $(".regular-season").slideToggle(600);
+       $(".regular-season").toggle(100, function () {
+
+            if ($('.regular-season').is(":visible")){
+
+                $('html, body').animate({
+                    scrollTop: $(".regular-season-button").offset().top
+                }, 700);
+
+            }
+       });
+
     });
 
 });
