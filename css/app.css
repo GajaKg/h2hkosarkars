@@ -516,7 +516,7 @@ form_main {
     margin-top: 80px;
 }
 .regular-season {
-    /*display: none;*/
+    display: none;
 }
 .regular-season:after {
     display: block;
