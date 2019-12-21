@@ -15,6 +15,9 @@ body {
 .SeriaA2-weeks {
     display: none;
 }
+.Championship-weeks {
+    display: none;
+}
 
 .round-active {
     border: 3px solid white;
@@ -472,7 +475,8 @@ form_main {
     margin-top: 30px;
 }
 .bracket-play-off {
-    display: grid;
+    /*display: grid;*/
+    display: none;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
 }
@@ -484,7 +488,18 @@ form_main {
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
 }
-
+.bracket-play-off-button {
+    display: inline-block;
+    padding: 11px;
+    background-color: #27282a;
+    font-size: 20px;
+    color: #ffdc11;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.grid {
+    display: grid;
+}
 .bracket-column-sub {
     display: grid;
     align-content: center;

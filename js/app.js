@@ -30,12 +30,16 @@ function getServiceData(method, url, bool){
 let tournament = "Chalenger";
 let league1name = "Seria A/1";
 let league2name = "Seria A/2";
+let league1name2 = "Championship";
 let currentWeek = 10;
+let currentWeek2 = 1;
 // let selectWeek = currentWeek;
 let selectWeek = 9;
+let selectWeek2 = 1;
 let leaguesHTML = {
     "Seria A/1": "SeriaA1",
-    "Seria A/2": "SeriaA2"
+    "Seria A/2": "SeriaA2",
+    "Championship": "Championship",
 };
 
 let league1Teams = {
@@ -63,22 +67,42 @@ let league2Teams = {
     "Loki": { team: "Heads Up", indUp: 0, indDown: 0, indDiff: 0, pts: 0, w: 0,  l: 0, d: 0 }
 };
 
+let league1Teams2 = {
+    "AugriAugri": { team: "Pokvareni Osmijeh", indUp: 0, indDown: 0, indDiff: 0, pts: 0, w: 0,  l: 0, d: 0 },
+    "Lucky": { team: "Boca Juniors", indUp: 0, indDown: 0, indDiff: 0, pts: 0, w: 0,  l: 0, d: 0 },
+    "Gira S": { team: "Gira S", indUp: 0, indDown: 0, indDiff: 0, pts: 0, w: 0,  l: 0, d: 0 },
+    "Korto Malteze": { team: "Korto Malteze", indUp: 0, indDown: 0, indDiff: 0, pts: 0, w: 0,  l: 0, d: 0 },
+    "Antonie": { team: "Madness", indUp: 0, indDown: 0, indDiff: 0, pts: 0, w: 0,  l: 0, d: 0 },
+    "DD": { team: "K42", indUp: 0, indDown: 0, indDiff: 0, pts: 0, w: 0,  l: 0, d: 0 },
+    "Djordjino": { team: "Djordjino", indUp: 0, indDown: 0, indDiff: 0, pts: 0, w: 0,  l: 0, d: 0 },
+    "Lika": { team: "Gagulatori", indUp: 0, indDown: 0, indDiff: 0, pts: 0, w: 0,  l: 0, d: 0 },
+    "Gaja": { team: "Klosari", indUp: 0, indDown: 0, indDiff: 0, pts: 0, w: 0,  l: 0, d: 0 },
+    "Mutinjo": { team: "Gladijatori", indUp: 0, indDown: 0, indDiff: 0, pts: 0, w: 0,  l: 0, d: 0 },
+    "Gira J": { team: "Gira J", indUp: 0, indDown: 0, indDiff: 0, pts: 0, w: 0,  l: 0, d: 0 },
+    "Amiga500": { team: "Radnik sa Liona", indUp: 0, indDown: 0, indDiff: 0, pts: 0, w: 0,  l: 0, d: 0 },
+};
+
 let league1Table = [];
 let league2Table = [];
 
-// let matchups = getServiceData("GET", "http://localhost/h2h/js/h2hapi.json", false);
-let matchups = getServiceData("GET", "https://gajakg.github.io/h2hkosarkars/js/h2hapi.json", false);
+let matchups = getServiceData("GET", "http://localhost/h2h/js/h2hapi.json", false);
+let matchups2 = getServiceData("GET", "http://localhost/h2h/js/h2hchampionship.json", false);
+// let matchups = getServiceData("GET", "https://gajakg.github.io/h2hkosarkars/js/h2hapi.json", false);
+// let matchups2 = getServiceData("GET", "https://gajakg.github.io/h2hkosarkars/js/h2hchampionship.json", false);
 
 $(document).ready(function () {
 
-    renderFixturesTableByLeague("Chalenger", "Seria A/1");
-    renderFixturesTableByLeague("Chalenger", "Seria A/2");
+    renderFixturesTableByLeague("Chalenger", "Seria A/1", matchups);
+    renderFixturesTableByLeague("Chalenger", "Seria A/2", matchups);
+    renderFixturesTableByLeague("Chalenger", "Championship", matchups2);
 
-    renderWeeksTableByLeague("Chalenger", "Seria A/1");
-    renderWeeksTableByLeague("Chalenger", "Seria A/2");
+    renderWeeksTableByLeague("Chalenger", "Seria A/1", matchups, selectWeek);
+    renderWeeksTableByLeague("Chalenger", "Seria A/2", matchups, selectWeek);
+    renderWeeksTableByLeague("Chalenger", "Championship", matchups2, selectWeek2);
 
     $("#SeriaA1-week-"+selectWeek).show();
     $("#SeriaA2-week-"+selectWeek).show();
+    $("#Championship-week-"+selectWeek2).show();
 
     $("#SeriaA1-round-holder .round-item").on("click", function () {
         showSelectedWeekByLeague("SeriaA1", this)
@@ -86,15 +110,22 @@ $(document).ready(function () {
     $("#SeriaA2-round-holder .round-item").on("click", function () {
         showSelectedWeekByLeague("SeriaA2", this)
     });
+    $("#Championship-round-holder .round-item").on("click", function () {
+        showSelectedWeekByLeague("Championship", this)
+    });
 
     for(let username in league1Teams){
-        createAndSortUserScoresByLeagueAndUsername(tournament, league1name, league1Teams, username);
+        createAndSortUserScoresByLeagueAndUsername(tournament, league1name, league1Teams, username, currentWeek);
     }
     sortTable(league1Teams, "SeriaA1");
     for(let username in league2Teams){
-        createAndSortUserScoresByLeagueAndUsername(tournament, league2name, league2Teams, username);
+        createAndSortUserScoresByLeagueAndUsername(tournament, league2name, league2Teams, username, currentWeek);
     }
     sortTable(league2Teams, "SeriaA2");
+    for(let username in league1Teams2){
+        createAndSortUserScoresByLeagueAndUsername(tournament, league1name2, league1Teams2, username, currentWeek2);
+    }
+    sortTable(league1Teams2, "Championship");
 
     $(".regular-season-button").on("click", function () {
        $(".regular-season").toggle(100, function () {
@@ -110,10 +141,13 @@ $(document).ready(function () {
 
     });
 
+    $(".bracket-play-off-button").on("click", function () {
+        $(".bracket-play-off").toggleClass("grid");
+    })
 });
 
-function renderWeeksTableByLeague(tournament, league){
-    let leagueFixtures = matchups[tournament][league];
+function renderWeeksTableByLeague(tournament, league, json, selectWeek){
+    let leagueFixtures = json[tournament][league];
     let leagueID = leaguesHTML[league];
     let weekID = 0;
     for (let week in leagueFixtures){
@@ -134,9 +168,9 @@ function showSelectedWeekByLeague(league, week) {//SeriaA1-week-1
     $("#"+league+"-week-"+weekNumber).fadeIn("slow");
 }
 
-function renderFixturesTableByLeague(tournament, league){
+function renderFixturesTableByLeague(tournament, league, json){
     let leagueID = leaguesHTML[league];
-    let leagueFixtures = matchups[tournament][league];
+    let leagueFixtures = json[tournament][league];
     let weekID = 0;
 
     for (let week in leagueFixtures){
@@ -182,7 +216,7 @@ function renderFixturesTableByLeague(tournament, league){
 
 }
 
-function createAndSortUserScoresByLeagueAndUsername(tournament, league, leagueTeams, username){
+function createAndSortUserScoresByLeagueAndUsername(tournament, league, leagueTeams, username, currentWeek){
     let leagueWeeks = matchups[tournament][league];
     let weekID = 0;
     for (let week in leagueWeeks){
