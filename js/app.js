@@ -85,10 +85,10 @@ let league1Teams2 = {
 let league1Table = [];
 let league2Table = [];
 
-// let matchups = getServiceData("GET", "http://localhost/h2h/js/h2hapi.json", false);
-// let matchups2 = getServiceData("GET", "http://localhost/h2h/js/h2hchampionship.json", false);
-let matchups = getServiceData("GET", "https://gajakg.github.io/h2hkosarkars/js/h2hapi.json", false);
-let matchups2 = getServiceData("GET", "https://gajakg.github.io/h2hkosarkars/js/h2hchampionship.json", false);
+let matchups = getServiceData("GET", "http://localhost/h2h/js/h2hapi.json", false);
+let matchups2 = getServiceData("GET", "http://localhost/h2h/js/h2hchampionship.json", false);
+// let matchups = getServiceData("GET", "https://gajakg.github.io/h2hkosarkars/js/h2hapi.json", false);
+// let matchups2 = getServiceData("GET", "https://gajakg.github.io/h2hkosarkars/js/h2hchampionship.json", false);
 
 $(document).ready(function () {
 
@@ -115,15 +115,15 @@ $(document).ready(function () {
     });
 
     for(let username in league1Teams){
-        createAndSortUserScoresByLeagueAndUsername(tournament, league1name, league1Teams, username, currentWeek);
+        createAndSortUserScoresByLeagueAndUsername(tournament, league1name, league1Teams, username, currentWeek, matchups);
     }
     sortTable(league1Teams, "SeriaA1");
     for(let username in league2Teams){
-        createAndSortUserScoresByLeagueAndUsername(tournament, league2name, league2Teams, username, currentWeek);
+        createAndSortUserScoresByLeagueAndUsername(tournament, league2name, league2Teams, username, currentWeek, matchups);
     }
     sortTable(league2Teams, "SeriaA2");
     for(let username in league1Teams2){
-        createAndSortUserScoresByLeagueAndUsername(tournament, league1name2, league1Teams2, username, currentWeek2);
+        createAndSortUserScoresByLeagueAndUsername(tournament, league1name2, league1Teams2, username, currentWeek2, matchups2);
     }
     sortTable(league1Teams2, "Championship");
 
@@ -216,7 +216,7 @@ function renderFixturesTableByLeague(tournament, league, json){
 
 }
 
-function createAndSortUserScoresByLeagueAndUsername(tournament, league, leagueTeams, username, currentWeek){
+function createAndSortUserScoresByLeagueAndUsername(tournament, league, leagueTeams, username, currentWeek, matchups){
     let leagueWeeks = matchups[tournament][league];
     let weekID = 0;
     for (let week in leagueWeeks){
