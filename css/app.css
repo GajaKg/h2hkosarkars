@@ -558,7 +558,7 @@ form_main {
     .bracket-column-sub {
         width: 100%;
     }
-    .bracket-play-off {
+    .bracket-play-off.grid {
         display: grid;
         grid-template-columns: 1fr;
     }
