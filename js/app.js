@@ -32,10 +32,10 @@ let league1name = "Seria A/1";
 let league2name = "Seria A/2";
 let league1name2 = "Championship";
 let currentWeek = 10;
-let currentWeek2 = 2;
+let currentWeek2 = 4;
 // let selectWeek = currentWeek;
 let selectWeek = 9;
-let selectWeek2 = 2;
+let selectWeek2 = 4;
 let leaguesHTML = {
     "Seria A/1": "SeriaA1",
     "Seria A/2": "SeriaA2",
