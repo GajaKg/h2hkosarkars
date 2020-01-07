@@ -546,8 +546,12 @@ form_main {
 }
 
 
-
-
+.bracket-playoff .fixture-round-index {
+    color: #b0aeae;
+}
+.bracket-playoff .wincolor {
+    color: #27282a;
+}
 @media screen and (max-width: 1180px) {
     .bracket {
         grid-template-columns: 1fr;
