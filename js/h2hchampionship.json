@@ -81,28 +81,28 @@
       },
       "Week 4": {
         "Fixture 1": {
-          "teamLocal": { "username": "Lika", "teamName": "Gagulatori", "indexMade": 0 },
-          "teamVisitor": { "username": "DD", "teamName": "K42", "indexMade": 0 }
+          "teamLocal": { "username": "Lika", "teamName": "Gagulatori", "indexMade": 111 },
+          "teamVisitor": { "username": "DD", "teamName": "K42", "indexMade": 72 }
         },
         "Fixture 2": {
-          "teamLocal": { "username": "AugriAugri", "teamName": "Pokvareni Osmijeh", "indexMade": 0 },
-          "teamVisitor": { "username": "Gaja", "teamName": "Klosari", "indexMade": 0 }
+          "teamLocal": { "username": "AugriAugri", "teamName": "Pokvareni Osmijeh", "indexMade": 72 },
+          "teamVisitor": { "username": "Gaja", "teamName": "Klosari", "indexMade": 105 }
         },
         "Fixture 3": {
-          "teamLocal": { "username": "Gira S", "teamName": "Gira S", "indexMade": 0 },
-          "teamVisitor": { "username": "Gira J", "teamName": "Gira J", "indexMade": 0 }
+          "teamLocal": { "username": "Gira S", "teamName": "Gira S", "indexMade": 187 },
+          "teamVisitor": { "username": "Gira J", "teamName": "Gira J", "indexMade": 102 }
         },
         "Fixture 4": {
-          "teamLocal": { "username": "Djordjino", "teamName": "Djordjino", "indexMade": 0 },
-          "teamVisitor": { "username": "Antonie", "teamName": "Madness", "indexMade": 0 }
+          "teamLocal": { "username": "Djordjino", "teamName": "Djordjino", "indexMade": 100 },
+          "teamVisitor": { "username": "Antonie", "teamName": "Madness", "indexMade": 127 }
         },
         "Fixture 5": {
-          "teamLocal": { "username": "Korto Malteze", "teamName": "Korto Malteze", "indexMade": 0 },
-          "teamVisitor": { "username": "Lucky", "teamName": "Boca Juniors", "indexMade": 0 }
+          "teamLocal": { "username": "Korto Malteze", "teamName": "Korto Malteze", "indexMade": 116 },
+          "teamVisitor": { "username": "Lucky", "teamName": "Boca Juniors", "indexMade": 115 }
         },
         "Fixture 6": {
-          "teamLocal": { "username": "Amiga500", "teamName": "Radnik sa Liona", "indexMade": 0 },
-          "teamVisitor": { "username": "Mutinjo", "teamName": "Gladijatori", "indexMade": 0 }
+          "teamLocal": { "username": "Amiga500", "teamName": "Radnik sa Liona", "indexMade": 135 },
+          "teamVisitor": { "username": "Mutinjo", "teamName": "Gladijatori", "indexMade": 84 }
         }
       },
       "Week 5": {
